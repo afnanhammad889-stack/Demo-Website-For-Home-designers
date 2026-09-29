@@ -1,10 +1,12 @@
 import type { Project, ServiceItem, ProcessStep, Testimonial, FAQItem } from '../types';
 
-export const HERO_IMAGE = '/src/assets/images/hero_luxury_interior_1790618743878.jpg';
-export const BEFORE_IMAGE = '/src/assets/images/before_kitchen_space_1790618758201.jpg';
-export const AFTER_IMAGE = '/src/assets/images/after_kitchen_space_1790618769792.jpg';
-export const ABOUT_DETAIL_IMAGE = '/src/assets/images/about_architectural_detail_1790618781785.jpg';
-export const PROJECT_HILLSIDE_IMAGE = '/src/assets/images/project_hillside_residence_1790618792429.jpg';
+import ABOUT_DETAIL_IMAGE from '../assets/images/about_architectural_detail_1790618781785.jpg';
+import AFTER_IMAGE from '../assets/images/after_kitchen_space_1790618769792.jpg';
+import BEFORE_IMAGE from '../assets/images/before_kitchen_space_1790618758201.jpg';
+import HERO_IMAGE from '../assets/images/hero_luxury_interior_1790618743878.jpg';
+import PROJECT_HILLSIDE_IMAGE from '../assets/images/project_hillside_residence_1790618792429.jpg';
+
+export { ABOUT_DETAIL_IMAGE, AFTER_IMAGE, BEFORE_IMAGE, HERO_IMAGE, PROJECT_HILLSIDE_IMAGE };
 
 export const PROJECTS: Project[] = [
   {
